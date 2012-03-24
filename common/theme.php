@@ -145,7 +145,7 @@ function theme_page($title, $content) {
 	echo	'<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 			<html xmlns="http://www.w3.org/1999/xhtml">
 			<head>
-				<title>ಕನ್ನಡ ಟ್ವಿಟರ್</title>
+				<title>',$title,' - ಕನ್ನಡ ಟ್ವಿಟರ್</title>
 				<base href="',BASE_URL,'" />
 				'.$meta.theme('css').'
 				<meta name="viewport" content="width=device-width; initial-scale=1.0;" />
